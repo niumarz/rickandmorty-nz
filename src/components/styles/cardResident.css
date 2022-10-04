@@ -1,0 +1,95 @@
+.card {
+    background-color: var(--background-cards);
+    color: white;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+} 
+.card_header {
+    position: relative;
+}
+.card_container-status{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100px;
+    background-color: var(--background-cards);
+    padding: 6px;
+    border-radius: 0 10px 10px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+.card_circle-status{
+    width: 14px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.Dead{
+    background-color: red;
+}
+.unknown{
+    background-color:#aaa;
+}
+.Alive{
+    background-color: rgb(9, 240, 9);
+}
+.card_body{
+    padding: 20px;
+}
+.card_name{
+    font-weight: 700;
+    font-size: 23px;
+    margin-bottom: 20px;
+    color: #4e9af0;
+}
+.card_list {
+    display: grid;
+    gap: 10px;
+}
+.card_item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-weight: 500;
+    
+}
+.card_span{
+    color: #ccc9;
+    transform: translateX(10px);
+}
+.-search{
+   background: #fff;
+   width: 300px;
+   height: 25px;
+   border: none;
+   outline: none;
+   padding: 0 25px;
+   border-radius: 25px 0 0 25px;
+   font-family: cursive;
+}
+.button{
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    height: 26px;
+    width: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #4e9af0;
+    color: #fff;
+    font-family:'Pangolin', cursive;
+    font-size: medium;
+}
+.button:hover{
+    background: #1d9619;
+}
+.logo{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
